@@ -9,7 +9,7 @@ bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/utils/master/docker-i
 
 printGreen "Install"
 sudo apt install -y unzip
-wget https://example.com/path/to/openledger-node-1.0.0-linux.zip
+wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
 unzip openledger-node-1.0.0-linux.zip -d openledger-node
 
 printGreen "Running node"
